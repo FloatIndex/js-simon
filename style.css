@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    background-color: #7f95c0;
+    box-shadow: 0 0 0px 2px inset #fff;
+    border: 3px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+/* FINE HEADER */
+
+
+
+/* MAIN */
+main {
+    height: calc(100vh - 80px);
+    background-color: #c8a2c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#box {
+    width: 500px;
+    height: 80px;
+    background-color: #c2c2c2;
+    border: 5px solid #9c9c9c;
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+}
+
+#game-over {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom: 200px;
+}
+/* FINE MAIN */
